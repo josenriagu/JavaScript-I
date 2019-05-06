@@ -107,7 +107,13 @@ for (let i = 0; i < inventory.length; i++) {
         BMWAndAudi.push(inventory[i]);
     }
 }
-JSON.stringify(BMWAndAudi);
+console.log(JSON.stringify(BMWAndAudi));
 
+// Alternative method learnt from a Pro today at the workspace
+// He explains when filter() may be better than a FOR loop and vice versa
 
+BMWAndAudi2 = inventory.filter(function(val){
+    return val.car_make === 'BMW' || val.car_make === 'Audi';
+});
 
+console.log("alternative:", JSON.stringify(BMWAndAudi2));
