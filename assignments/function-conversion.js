@@ -30,4 +30,4 @@ const triple = exampleArray.map(function (num) {
 console.log(triple);
 
 //Alternative method using arrow function
-const triple = exampleArray.map(num => num * 3);
+// const triple = exampleArray.map(num => num * 3);
