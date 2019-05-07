@@ -58,6 +58,7 @@ const intern5 = {
   "multiplyNums": function(num1, num2) {
     return num1*num2;
   }
+  //Alternative: (num1, num2) => num1 * num2
 }
 
 
